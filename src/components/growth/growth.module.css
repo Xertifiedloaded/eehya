@@ -1,0 +1,67 @@
+.main {
+    background-image: url(../../assets/images/arc.svg), linear-gradient(270.04deg, #01B8D9 0.05%, #24CEED 97.84%);
+    width: 85%;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 360px;
+    margin: 0 auto 120px;
+}
+
+.content {
+    padding: 65px 62px 64px;
+}
+
+.main .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.content .left>h1 {
+    margin-bottom: 20px;
+    width: 355px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.content .left>p {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.content .left>.contributor {
+    display: flex;
+    align-items: center;
+}
+
+.left .contributor>a {
+    margin-left: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.content .right a >button{
+    padding: 18px 32px;
+    border: none;
+    line-height: 21px;
+    text-align: center;
+    color: #00B8D9;
+    cursor: pointer;
+}
+.content .right a>button:hover{
+background: transparent;
+color: white;
+border: 1px solid white;
+}

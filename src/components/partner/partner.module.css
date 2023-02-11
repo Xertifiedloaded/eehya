@@ -1,0 +1,7 @@
+.partners{
+    width: 85%;
+    margin: 100px  auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 5fr));
+    justify-items: center;
+}

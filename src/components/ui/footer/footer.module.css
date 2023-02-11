@@ -1,0 +1,50 @@
+.main {
+    background: black;
+    color: white;
+}
+
+
+footer {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 5fr));
+}
+
+footer>.product {}
+
+.product>h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.product>a {
+    display: block;
+    text-decoration: none;
+    color: #D3D6D8;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.head>p {
+    font-size: 13px;
+}
+
+.social {
+    margin-top: 20px;
+    height: 18px;
+
+}
+
+.social>a {
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.social>a img {
+    width: 14px;
+
+}

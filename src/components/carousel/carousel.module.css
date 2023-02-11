@@ -1,0 +1,50 @@
+.starContent {
+    display: flex;
+    align-items: center;
+}
+
+.starContent .image {
+    margin-right: 9px;
+}
+
+.starContent .star svg:not(:last-child) {
+    margin-right: 6px;
+}
+
+.starContent .star svg {
+    margin-bottom: 14px;
+}
+
+.review>p {
+    width: 442px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #90A3B4;
+    font-style: italic;
+}
+
+.reviewAll {
+    padding-left: 30px;
+}
+
+.person {
+    display: flex;
+}
+
+.person>img {
+    margin-right: 15px;
+    width: 56px;
+}
+
+.person .info>h3 {
+    color: #034D82;
+}
+
+.person .info>p {
+    color: #90A3B4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}

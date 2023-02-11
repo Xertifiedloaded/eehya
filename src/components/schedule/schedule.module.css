@@ -1,0 +1,52 @@
+.main {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main>.content,
+.mac {
+    width: 50%;
+
+}
+
+.mac>img {
+    width: 100%;
+}
+
+.main>.content h3 {
+    width: 446px;
+    color: #034D82;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.main>.content p {
+    width: 485px;
+    font-size: 15px;
+    color: #90A3B4;
+    margin-bottom: 24px;
+}
+
+.main>.content li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.content li>span {
+    width: 134px;
+    color: #90A3B4;
+    font-size: 15px;
+}
+
+.main>.content a {
+    text-decoration: none;
+    color: #04AADD;
+    font-weight: 700;
+    font-size: 15px;
+}

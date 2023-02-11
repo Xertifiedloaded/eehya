@@ -1,0 +1,75 @@
+.main {
+    background: #00A8DB;
+    position: relative;
+    padding:100px 0;
+}
+
+.main .hero {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .hero>.heroText,
+.heroImage {
+    width: 494px;
+}
+
+.main .hero>.heroText h1 {
+    font-size: 55px;
+    width: 624px;
+    color: white;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+h1 span {
+    position: absolute;
+    left: 0;
+    bottom: -27px;
+
+}
+
+.main .hero>.heroText p {
+    width: 459px;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn button {
+    padding: 12px 35px;
+    outline: none;
+    font-size: 12px;
+    text-transform: capitalize;
+    border: none;
+}
+
+.btn a:first-child button {
+    background-color: white;
+    color: #00A8DB;
+}
+
+.btn a:last-child button {
+    background-color: transparent;
+    color: white;
+}
+
+.heroImage>img {
+    width: 45.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

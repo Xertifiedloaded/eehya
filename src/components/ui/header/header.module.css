@@ -1,0 +1,26 @@
+.header {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    background: #00A8DB;
+    height: 38px;
+}
+
+nav>a {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+nav>a:not(:last-child) {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}

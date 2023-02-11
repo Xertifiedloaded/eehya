@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.swiper-button-next {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  background: #034D82 !important;
+  color: #fff !important;
+  position: relative;
+}
+
+.swiper-button-prev {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+  transform: translateX(-20px);
+  position: relative;
+}
+
+.swiper-button-prev::after {
+  content: url(./assets/images/prev.svg) !important;
+  top: -15px !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  position: absolute;
+  left: 10px;
+  top: 0 !important;
+  color: white;
+
+
+}
+
+.swiper-button-next::after {
+  content: url(./assets/images/next.svg) !important;
+  position: absolute;
+  top: -15px !important;
+}

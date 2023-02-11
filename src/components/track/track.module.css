@@ -1,0 +1,37 @@
+.main {
+    background: #effbff;
+    width: 100%;
+    margin: 177px auto 0;
+}
+
+.track {
+    /* background: #effbff; */
+    width: 85%;
+    margin: 0 auto;
+    /* background: red; */
+}
+
+.main .track>.heading h2 {
+    color: #034D82;
+    text-align: center;
+    font-size: 30px;
+    width: 607px;
+    margin: 0 auto;
+    padding: 80px 0 0;
+}
+
+.main .track>.heading p {
+    width: 579px;
+    margin: 24px auto 76px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    color: #8EA9C1;
+}
+.track>.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,4fr));
+    justify-items: center;
+/* background: red; */
+}

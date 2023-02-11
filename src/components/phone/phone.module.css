@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 100px auto;
+}
+
+.main>.phoneContainer,.phoneContent {
+    width: 50%;
+}
+.phoneContainer{
+    position: relative;
+}
+.main .phoneContainer>img {
+    width: 60%;
+}
+.main .phoneContent>h3{
+    width: 390px;
+    font-size: 36px;
+   color: #034D82;
+   margin-bottom: 24px;
+}
+.main .phoneContent>p{
+    width: 458px;
+    color:#90A3B4;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.main .phoneContent>a{
+    font-size: 15px;
+    color: #04AADD;
+}
+.phoneContainer>img:last-child{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}

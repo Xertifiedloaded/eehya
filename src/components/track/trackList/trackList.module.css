@@ -1,0 +1,29 @@
+.main{
+    width: 259px;
+    padding: 28px 28px 70px;
+
+}
+
+.main >.imageContainer{
+  width: fit-content;
+  margin-bottom: 26px;
+}
+.main .imageContainer >img{
+  padding: 18px;
+}
+
+.main >h3{
+    margin: 0 0 16px;
+color: #034D82;
+}
+.main>p{
+  width: 198px;
+  font-size: 15px;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  
+    letter-spacing: 0.3px;
+  
+    color: #8EA9C1;
+}
