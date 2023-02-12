@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import classes from '../growth/growth.module.css'
 import Contributor from '../../assets/images/contributor.svg'
 import Emoji from '../../assets/images/love.svg'
