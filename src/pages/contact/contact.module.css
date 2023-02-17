@@ -1,0 +1,18 @@
+.main {
+  min-height: 100vh;
+  display: grid;
+  margin-bottom: 20px;
+  place-items: center;
+  padding: 100px 0;
+  position: relative;
+}
+.blue,.yellow{
+  position: absolute;
+  bottom: 0;
+}
+.blue{
+  left: 0;
+}
+.yellow{
+  right: 0;
+}

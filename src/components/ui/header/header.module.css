@@ -24,3 +24,15 @@ nav>a:not(:last-child) {
 a {
     text-decoration: none;
 }
+
+.contactColor {
+    background: linear-gradient(0deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(120, 180, 220, 0.499124649859944) 100%);
+}
+.navColorInContact {
+    color: #000000 !important;
+}
+nav .navColorInContact>img{
+    filter: invert(1);
+}
