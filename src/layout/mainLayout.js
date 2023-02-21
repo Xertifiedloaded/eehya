@@ -1,15 +1,25 @@
-import React from "react";
+import { createContext, useEffect, useState } from "react";
 import Header from "../components/ui/header/header";
 import Footer from "../components/ui/footer/footer";
 import { Outlet } from "react-router-dom";
-const MainLayout = ({ children }) => {
+export const UserContext = createContext();
+const MainLayout = ()=> {
+  const [user, setUser] = useState("Olaitan");
+  const [count, setCount] = useState(0);
+  const handledClick = () => {
+    setUser("makinde")
+
+  }
   return (
     <>
-      <Header />
-      <main>
-        <Outlet />
-      </main>
-      <Footer />
+      <UserContext.Provider value={{ user, count,handledClick }}>
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+      </UserContext.Provider>
+      
     </>
   );
 };
